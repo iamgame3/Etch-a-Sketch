@@ -32,5 +32,45 @@
 }
 
 .square {
-    border: 1px solid #000000;
+    border: 1px solid hsl(0, 0%, 0%);
+}
+
+.shade10 {
+    background-color: hsl(0, 0%, 90%);
+}
+
+.shade20 {
+    background-color: hsl(0, 0%, 80%);
+}
+
+.shade30 {
+    background-color: hsl(0, 0%, 70%);
+}
+
+.shade40 {
+    background-color: hsl(0, 0%, 60%);
+}
+
+.shade50 {
+    background-color: hsl(0, 0%, 50%);
+}
+
+.shade60 {
+    background-color: hsl(0, 0%, 40%);
+}
+
+.shade70 {
+    background-color: hsl(0, 0%, 30%);
+}
+
+.shade80 {
+    background-color: hsl(0, 0%, 20%);
+}
+
+.shade90 {
+    background-color: hsl(0, 0%, 10%);
+}
+
+.shade100 {
+    background-color: hsl(0, 0%, 0%);
 }
