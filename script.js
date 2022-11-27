@@ -13,14 +13,9 @@ let makeGrid = (a) => {
     }
 }
 
-makeGrid(16);
+makeGrid(8);
 
-console.log(square);
-
-square.addEventListener('mouseover', () => {
+let squares = document.querySelectorAll('.square')
+squares.forEach(square => square.addEventListener('mouseover', () => {
     square.style.cssText += "background-color: black;";
-});
-
-grid.addEventListener('mouseover', () => {
-    grid.style.cssText += "background-color: black;";
-});
+}));
