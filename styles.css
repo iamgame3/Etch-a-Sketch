@@ -1,8 +1,26 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.change {
+    font-size: 18px;
+    padding: 8px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.change:active {
+    background-color: #eeeeee;
+}
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 64px;
+    margin-top: 32px;
 }
 
 .grid {
