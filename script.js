@@ -18,7 +18,10 @@ makeGrid(16);
 
 let squares = document.querySelectorAll('.square')
 squares.forEach(square => square.addEventListener('mouseover', () => {
-    square.style.cssText += "background-color: black;";
+    let a = (Math.floor(Math.random() * 255));
+    let b = (Math.floor(Math.random() * 255));
+    let c = (Math.floor(Math.random() * 255));
+    square.style.cssText += `background-color: rgb(${a}, ${b}, ${c})`;
 }));
 
 let makeGridFromInput = () => {
@@ -30,7 +33,10 @@ let makeGridFromInput = () => {
     makeGrid(input);
     let squares = document.querySelectorAll('.square')
     squares.forEach(square => square.addEventListener('mouseover', () => {
-        square.style.cssText += "background-color: black;";
+        let a = (Math.floor(Math.random() * 255));
+        let b = (Math.floor(Math.random() * 255));
+        let c = (Math.floor(Math.random() * 255));
+        square.style.cssText += `background-color: rgb(${a}, ${b}, ${c})`;
     }));
 };
 
