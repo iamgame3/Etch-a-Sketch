@@ -2,4 +2,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 64px;
+}
+
+.grid {
+    display: inline-flex;
+    width: 800px;
+    height: 800px;
+}
+
+.square {
+    border: 1px solid #000000;
 }
